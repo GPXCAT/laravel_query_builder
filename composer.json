@@ -1,0 +1,25 @@
+{
+    "name": "gpxcat/laravel_db_log",
+    "description": "自製的Laravel DB 查詢 Log",
+    "type": "library",
+    "authors": [
+        {
+            "name": "John",
+            "email": "john.chang@starnic.com.tw"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Gpxcat\\LaravelQueryBuilder\\QueryBuilderServiceProvider"
+            ]
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Gpxcat\\LaravelQueryBuilder\\": "src/"
+        }
+    }
+}
