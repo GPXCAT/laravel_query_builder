@@ -1,4 +1,4 @@
-# gpxcat's laravel_db_log
+# gpxcat's laravel_query_builder
 
 ### Laravel 5.5+ Integration
 
