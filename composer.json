@@ -1,6 +1,6 @@
 {
-    "name": "gpxcat/laravel_db_log",
-    "description": "自製的Laravel DB 查詢 Log",
+    "name": "gpxcat/laravel_query_builder",
+    "description": "自製的Laravel Query Builder",
     "type": "library",
     "authors": [
         {
