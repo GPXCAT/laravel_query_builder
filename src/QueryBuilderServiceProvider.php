@@ -91,6 +91,9 @@ class QueryBuilderServiceProvider extends ServiceProvider
                 case 'lessOrEqual':
                     $this->where($queries[0], '<=', $value);
                     break;
+                case 'lessThan':
+                    $this->where($queries[0], '<', $value);
+                    break;
                 case 'like':
                     $this->where($queries[0], 'LIKE', "%{$value}%");
                     break;
